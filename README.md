@@ -10,6 +10,11 @@ pip install -r requirements.txt
 ## Audio-Encoder
 Audio-Encoder is necessary for running the model and due to its size, it has not included in the repository, but it could be downloaded from [this Google Drive link](https://drive.google.com/drive/folders/1o363nAqpyP80tivFNdjmyyoWGCLUeHZS). 
 
+## Running the code
+To run the code and generate summaries from audio, you need to run the inference.py. Make you you have the audio encoder in the same directory and also config_full.yaml and also the audio_encoder.py are run. </br></br>
+*I used the inference code from the [baseline paper](https://arxiv.org/abs/2406.05968), however, I commneted the part of the code related to training the audio encoder, becuase I have not retrained the audio encoder and used the available one from the baseline framework.*
+
+
 
 
 
