@@ -4,7 +4,7 @@ This study is based on the [this study](https://arxiv.org/abs/2406.05968). In th
 This repository includes the Code for running the audio encoder and LLMs pipeline.
 
 ## Prerequisites
-The prerequisites could be installed by install by running 
+The prerequisites could be installed by running 
 pip install -r requirements.txt
 
 ## Audio-Encoder
