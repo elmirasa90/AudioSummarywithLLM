@@ -5,13 +5,13 @@ This repository includes the Code for running the audio encoder and LLM pipeline
 
 ## Prerequisites
 The prerequisites could be installed by running 
-pip install -r requirements.txt
+`pip install -r requirements.txt`
 
 ## Audio-Encoder
 Audio-Encoder is necessary for running the model and due to its size, it has not included in the repository, but it could be downloaded from [this Google Drive link](https://drive.google.com/drive/folders/1o363nAqpyP80tivFNdjmyyoWGCLUeHZS). 
 
 ## Running the code
-To run the code and generate summaries from audio, you need to run the inference.py. Make sure you you have the audio encoder in the same directory, and config_full.yaml and audio_encoder.py are run. </br></br>
+To run the code and generate summaries from audio, you need to run the inference.py. Make sure you you have the audio encoder in the same directory, and `config_full.yaml` and `audio_encoder.py` are run. </br></br>
 *I used the inference code from the [baseline paper](https://arxiv.org/abs/2406.05968), however, I commented the sections of the code related to training the audio encoder, becuase I have not retrained the audio encoder and used the available one from the baseline framework.*
 
 ## Dataset used training the audio encoder
